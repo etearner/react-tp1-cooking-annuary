@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+$font-1: "Work Sans", sans-serif;
+
+$color-1: #61dafb;
+$color-2: salmon;
+$color-3: #282c34;
+$white: rgb(243, 243, 243);
+
+body {
+    background: $white;
+    font-family: $font-1;
+
+}
+
+header {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
