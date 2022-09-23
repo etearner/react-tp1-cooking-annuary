@@ -1,0 +1,13 @@
+.not-found {
+    background: repeating-linear-gradient(-45deg, $color-3, $color-3 1px, #e5e5f7 2px, #e5e5f7 10px);
+    font-size: x-large;
+    margin: 100px auto;
+    padding: 20px;
+    width: 800px;
+
+    img {
+        margin-top: 20px;
+        max-width: 200px;
+        height: 150px;
+    }
+}

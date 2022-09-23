@@ -1,21 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
-$font-1: "Work Sans", sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 
-$color-1: #61dafb;
-$color-2: salmon;
-$color-3: #282c34;
+$font-1: 'Work Sans', sans-serif;
+$font-2: 'Oswald', sans-serif;
+
+$color-1: #ddd;
+$color-2: #e5e5f7;
+$color-3: rgba(200, 200, 253, .5);
+$color-4: rgba(255, 255, 255, .8);
+$color-5: #B8B8FD;
+$color-6: #2C2CAC;
 $white: rgb(243, 243, 243);
 
-body {
-    background: $white;
-    font-family: $font-1;
-
+* {
+    border-radius: 5px;
 }
 
-header {
+body {
+    font-family: $font-1;
+    background-color: $color-2;
+    color: $color-6;
+    opacity: 0.8;
+    background-size: 10px 10px;
+    background-image: repeating-linear-gradient(45deg, #d9dbfb 0, #d9dbfb 1px, #e5e5f7 0, #e5e5f7 50%);
     text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    font-family: $font-2;
 }
 
 li {
     list-style-type: none;
+}
+
+.even {
+    background-color: $color-3  !important;
 }

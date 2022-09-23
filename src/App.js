@@ -6,6 +6,10 @@ import NotFound from './pages/NotFound';
 const App = () => {
   return (
     <BrowserRouter>
+      <header className='title'>
+        <a href='/' title="Retourner à l'accueil">Annauire de recettes React</a>
+      </header>
+
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='*' element={<NotFound />} />

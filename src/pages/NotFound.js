@@ -1,11 +1,10 @@
 import React from 'react';
+import ItemNotFound from '../components/core/ItemNotFound';
 
 const NotFound = () => {
     return (
         <div>
-            <header>
-                <h1>La page que vous recherchez n'existe pas.</h1>
-            </header>
+            <ItemNotFound displayMessage={"La page que vous recherchez n'existe pas."} />
         </div>
     );
 };

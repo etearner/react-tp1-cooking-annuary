@@ -1,0 +1,16 @@
+.filters {
+    background-color: $color-6;
+    padding: 10px;
+
+    form {
+        text-align: right;
+    }
+
+    form>input {
+        padding: 5px;
+        height: 30px;
+        width: 280px;
+        border: none;
+        outline-color: $color-5;
+    }
+}
