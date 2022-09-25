@@ -6,10 +6,11 @@ $font-2: 'Oswald', sans-serif;
 
 $color-1: #ddd;
 $color-2: #e5e5f7;
-$color-3: rgba(200, 200, 253, .5);
-$color-4: rgba(255, 255, 255, .8);
+$color-3: rgba(200, 200, 253, .9);
+$color-4: rgba(255, 255, 255, .9);
 $color-5: #B8B8FD;
-$color-6: #2C2CAC;
+$color-6: #2c2cac;
+$color-7: rgba(148, 165, 240, 0.8);
 $white: rgb(243, 243, 243);
 
 * {
@@ -20,9 +21,14 @@ body {
     font-family: $font-1;
     background-color: $color-2;
     color: $color-6;
-    opacity: 0.8;
-    background-size: 10px 10px;
-    background-image: repeating-linear-gradient(45deg, #d9dbfb 0, #d9dbfb 1px, #e5e5f7 0, #e5e5f7 50%);
+    // background-size: 10px 10px;
+    // background-image: repeating-linear-gradient(45deg, #d9dbfb 0, #d9dbfb 1px, #e5e5f7 0, #e5e5f7 50%);
+    background-attachment: fixed;
+    background-image: url('../../public/assets/img/bg.webp');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
     text-align: center;
 }
 
