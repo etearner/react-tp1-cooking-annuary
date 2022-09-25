@@ -15,6 +15,11 @@ header.title {
     a:visited {
         color: $white;
     }
+
+    .slogan {
+        font-size: small;
+        padding: 5px 0 15px 0;
+    }
 }
 
 header.title:hover {

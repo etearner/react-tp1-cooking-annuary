@@ -8,6 +8,7 @@ const App = () => {
     <BrowserRouter>
       <header className='title'>
         <a href='/' title="Retourner à l'accueil">Annauire de recettes React</a>
+        <div className='slogan'>Fièrement propulsé par 2.00.96</div>
       </header>
 
       <Routes>

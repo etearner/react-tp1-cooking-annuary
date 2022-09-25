@@ -32,10 +32,55 @@ h3 {
     font-family: $font-2;
 }
 
+ul {
+    padding: 0;
+    margin: 0;
+}
+
 li {
     list-style-type: none;
 }
 
-.even {
-    background-color: $color-3  !important;
+.hide {
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+}
+
+.clear {
+    clear: both;
+}
+
+.close {
+    position: absolute;
+    right: 32px;
+    top: 12px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+}
+
+.close:hover {
+    opacity: 1;
+}
+
+.close:before,
+.close:after {
+    position: absolute;
+    top: 15%;
+    left: 45%;
+    content: ' ';
+    height: 20px;
+    width: 2px;
+    background-color: #333;
+}
+
+.close:before {
+    transform: rotate(45deg);
+}
+
+.close:after {
+    transform: rotate(-45deg);
 }

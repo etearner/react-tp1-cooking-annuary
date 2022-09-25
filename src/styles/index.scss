@@ -1,5 +1,10 @@
 @import './settings';
-@import './pages/home';
-@import './components/collection';
-@import './components/card';
+@import './webkit';
+
+@import './components/recipes/recipes.scss';
+@import './components/recipes/recipePost';
+@import './components/recipes/recipeCard';
+
 @import './components/notFound';
+
+@import './pages/home';
