@@ -22,15 +22,15 @@ const RecipePost = ({ meal, cleanRecipe, displayed = false }) => {
     }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
     return (
-        <div className={'recipe-modal ' + (isDisplayed ? 'show' : 'hide')}>
-            <div className="dark-cover">tesr</div>
+        <div className={'modal ' + (isDisplayed ? 'show' : 'hide')}>
+            <div className="dark"></div>
 
-            <div className="card">
-                <div className="card-head">
+            <div className="box">
+                <div className="modal-head">
                     <h2>{meal.strMeal}</h2>
-                    <button className="close" onClick={(e) => handleHide()}></button>
+                    <button className="close" onClick={(e) => handleHide()} title={'Fermer'}></button>
                 </div>
-                <div className="card-body">
+                <div className="modal-body">
                     <div className="featured">
                         <img src={meal.strMealThumb} alt={meal.strMeal} />
                     </div>

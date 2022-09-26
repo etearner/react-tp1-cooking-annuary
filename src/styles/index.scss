@@ -1,10 +1,8 @@
-@import './settings';
-@import './webkit';
+@import './utils/settings';
+@import './utils/modal';
+@import './utils/webkit';
 
-@import './components/recipes/recipes.scss';
-@import './components/recipes/recipePost';
+@import './components/core/notFound';
 @import './components/recipes/recipeCard';
-
-@import './components/notFound';
 
 @import './pages/home';

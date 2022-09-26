@@ -7,7 +7,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <header className='title'>
-        <a href='/' title="Retourner à l'accueil">Annauire de recettes React</a>
+        <a href='/' title="Accueil">Annauire de recettes React</a>
         <div className='slogan'>Fièrement propulsé par 2.00.96</div>
       </header>
 

@@ -5,17 +5,17 @@ const RecipeCard = ({ handlePost, meal, index }) => {
     }
 
     return (
-        <div className={'card' + (index % 2 === 0 ? ' even' : '')}>
-            <div className='card-head'>
+        <div className={'meals-card' + (index % 2 === 0 ? ' even' : '')}>
+            <div className='meals-card-head'>
                 <h3>{meal.strMeal}</h3>
             </div>
-            <div className='card-body'>
+            <div className='meals-card-body'>
                 <img src={meal.strMealThumb} alt={meal.strMeal} />
                 <p>
                     {getDescription(meal.strInstructions)}
                 </p>
             </div>
-            <div className='card-foot'>
+            <div className='meals-card-foot'>
                 <button onClick={(e) => handlePost(e, meal)}>Voir la recette</button>
             </div>
 

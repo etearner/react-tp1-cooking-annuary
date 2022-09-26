@@ -25,3 +25,30 @@ header.title {
 header.title:hover {
     background-color: #000;
 }
+
+.filters {
+    background-color: $color-6;
+    padding: 10px;
+
+    form {
+        text-align: right;
+    }
+
+    form>input {
+        padding: 5px;
+        height: 30px;
+        width: 280px;
+        border: none;
+        outline-color: $color-5;
+    }
+}
+
+.even {
+    background-color: $color-3  !important;
+}
+
+.meals-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
